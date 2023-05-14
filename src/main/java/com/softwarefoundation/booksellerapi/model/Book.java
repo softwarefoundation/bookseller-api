@@ -31,7 +31,7 @@ public class Book {
     @Column(name = "price", nullable = false, length = 1000)
     private Double price;
 
-    @Column(name = "create_time", nullable = false, length = 100)
+    @Column(name = "create_time", nullable = false)
     private LocalDateTime createTime;
 
 }

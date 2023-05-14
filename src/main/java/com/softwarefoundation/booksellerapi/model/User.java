@@ -30,7 +30,7 @@ public class User {
     @Column(name = "name", nullable = false, length = 100)
     private String name;
 
-    @Column(name = "create_time", nullable = false, length = 100)
+    @Column(name = "create_time", nullable = false)
     private LocalDateTime createTime;
 
     @Enumerated(EnumType.STRING)
