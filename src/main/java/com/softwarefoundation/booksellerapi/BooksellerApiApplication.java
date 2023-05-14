@@ -13,10 +13,4 @@ public class BooksellerApiApplication {
         SpringApplication.run(BooksellerApiApplication.class, args);
     }
 
-
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
-    }
-
 }
